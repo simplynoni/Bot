@@ -1,0 +1,23 @@
+{
+  "name": "roblox-bot",
+  "version": "1.0.0",
+  "main": "src/Main.js",
+  "author": "SimplyNoni",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node src/Main.js"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^0.5.0",
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "chrono-node": "^2.3.8",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.1",
+    "figlet": "^1.5.2",
+    "noblox.js": "^4.13.1",
+    "roblox-long-polling": "^2.0.4"
+  }
+}
